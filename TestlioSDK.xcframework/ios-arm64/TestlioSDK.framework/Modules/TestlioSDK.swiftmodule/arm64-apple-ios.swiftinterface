@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.16.13 clang-1200.0.22.25)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TestlioSDK
 import AVFoundation
 import CoreLocation
@@ -43,16 +43,44 @@ public enum DeviceModel : Swift.String {
   }
   public init?(rawValue: Swift.String)
 }
+@objc public enum TestlioInvocation : Swift.Int {
+  case shake
+  case screenshot
+  case twoFingersSwipeLeft
+  case rightEdgePan
+  case floatingButton
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers @objc public class Testlio : ObjectiveC.NSObject {
   @objc public static var shared: TestlioSDK.Testlio?
   public static let defaultMaxReproSteps: Swift.Int
   public static let defaultMaxNetworkRequests: Swift.Int
   public static let defaultWindowSize: Swift.Double
   public static let defaultSamplingRate: Swift.Double
-  @objc public static func start(withClientToken clientToken: Swift.String, collectionId: Swift.String, maxReproSteps: Swift.Int = defaultMaxReproSteps, maxNetworkRequests: Swift.Int = defaultMaxNetworkRequests, samplingRate: Swift.Double = defaultSamplingRate, windowSize: Swift.Double = defaultWindowSize, useTestEnvironment: Swift.Bool = false, useLocationServices: Swift.Bool = true)
+  public static let defaultScreenshotWindowSize: Swift.Double
+  public static let defaultScreenshotFrequency: Swift.Double
+  public static let defaultSessionUploadInterval: Swift.Double
+  public static let defaultImageQuality: Swift.Double
+  public static let defaultUseVideoCompression: Swift.Bool
+  public static let defaultImageSize: CoreGraphics.CGSize
+  public static let defaultInvocationEvents: Swift.Set<TestlioSDK.TestlioInvocation>
+  public static func start(withClientToken clientToken: Swift.String, collectionId: Swift.String, maxReproSteps: Swift.Int = defaultMaxReproSteps, maxNetworkRequests: Swift.Int = defaultMaxNetworkRequests, samplingRate: Swift.Double = defaultSamplingRate, windowSize: Swift.Double = defaultWindowSize, enableAutomaticScreenshots: Swift.Bool = true, screenshotFrequency: Swift.Double = defaultScreenshotFrequency, screenshotWindowSize: Swift.Double = defaultScreenshotWindowSize, sessionDataUploadInterval: Swift.Double = defaultSessionUploadInterval, useVideoCompression: Swift.Bool = defaultUseVideoCompression, imageQuality: Swift.Double = defaultImageQuality, imageSize: CoreGraphics.CGSize = defaultImageSize, useTestEnvironment: Swift.Bool = false, useLocationServices: Swift.Bool = true, invocationEvents: Swift.Set<TestlioSDK.TestlioInvocation> = defaultInvocationEvents)
+  public static func showUI()
   @objc deinit
   @objc override dynamic public init()
+}
+extension UIResponder {
+  public static var current: UIKit.UIResponder? {
+    get
+  }
 }
 extension TestlioSDK.DeviceModel : Swift.Equatable {}
 extension TestlioSDK.DeviceModel : Swift.Hashable {}
 extension TestlioSDK.DeviceModel : Swift.RawRepresentable {}
+extension TestlioSDK.TestlioInvocation : Swift.Equatable {}
+extension TestlioSDK.TestlioInvocation : Swift.Hashable {}
+extension TestlioSDK.TestlioInvocation : Swift.RawRepresentable {}
