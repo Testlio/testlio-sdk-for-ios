@@ -6,19 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uE6Iudk23+efCB1tOXhb0pKGTNc=
+		UEA/Y/sPA/eothvcEbwO6d1NQoI=
 		</data>
 		<key>Headers/TestlioSDK-Swift.h</key>
 		<data>
-		mPNJD64P9CdpCuCK5YtsysyfS1s=
+		ndCyeChlltfp2+k02IpMmAj60BY=
 		</data>
 		<key>Headers/TestlioSDK.h</key>
 		<data>
-		0TQALX3LtBthheuA9nA5m3KvuYk=
+		fqor8xDT+3ih2i+/C4wohjmjqig=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H2/U8LJ7Nn5IGS9RPlbLL72SKSk=
+		2kCTLDR/H2sKgDdMcs66L977IaA=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MSXLSayU5dl5AJV0oF7Dm8zgoME=
+		BxFWM9c1qhDTVqF8vHmxHMqScro=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ztOGOvB1OH0sG3B7m5h0LwT8mFs=
+		IyhkO966+hfKQNs8BqT5ziT9x5E=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		MSXLSayU5dl5AJV0oF7Dm8zgoME=
+		BxFWM9c1qhDTVqF8vHmxHMqScro=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ztOGOvB1OH0sG3B7m5h0LwT8mFs=
+		IyhkO966+hfKQNs8BqT5ziT9x5E=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EoIgU+OV/qXxiPva3h+NFJcEn/Y=
+		VyNl8EsSctkFdPnY4kJze96cZCE=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mv0GOJ7AAmiEv1sRGcaeEhAKFek=
+		l9jW8dxbvYWqL0iZG7fOTOw/nqk=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		EoIgU+OV/qXxiPva3h+NFJcEn/Y=
+		VyNl8EsSctkFdPnY4kJze96cZCE=
 		</data>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mv0GOJ7AAmiEv1sRGcaeEhAKFek=
+		l9jW8dxbvYWqL0iZG7fOTOw/nqk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,21 +79,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			muoWjLcHgXMB8WpPh74wP8i1rvki/A18CmLJ/IQ85yc=
+			vbUrBwVYCHSpRAv3JQemRBQg6Is7Uq/N+6SGaR5P8B8=
 			</data>
 		</dict>
 		<key>Headers/TestlioSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CG1SpJ1hfzwP9iUQk7+XeGr3OWebwadpwqk12sWWqqs=
+			Fegl35pOmldvioIggLETKpw42+MjKfr+hwVVZxNrMKs=
 			</data>
 		</dict>
 		<key>Headers/TestlioSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bCZ+4EiJTonBG3E3wJ1jqBfroCS19A5c/iHAif/UuM=
+			KghK/fiZK+TiKxH7P0gkPWPATpRP8PbMSNC7+9MR/CE=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSsegGoNy2eQjjJqWOozkoXZSvSTHPg8oeNKbIxTM1Y=
+			cApMPVmD2L8JADzANZWgTATXd2zy6/vndpuiNj0h4Do=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qXbgmgz5nrdLAlJs/3/77p+Ir6pQUlp4hQltjo1nX3Q=
+			ei5lMhF0X6lJLWNiCH7vu7anG+DnvUSUBpatwBjlVVQ=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSsegGoNy2eQjjJqWOozkoXZSvSTHPg8oeNKbIxTM1Y=
+			cApMPVmD2L8JADzANZWgTATXd2zy6/vndpuiNj0h4Do=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qXbgmgz5nrdLAlJs/3/77p+Ir6pQUlp4hQltjo1nX3Q=
+			ei5lMhF0X6lJLWNiCH7vu7anG+DnvUSUBpatwBjlVVQ=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2XEKV+1+iYrAjEa2Mk0XS7rxG6Wzsu+X3JDelXjlV1I=
+			ZkK4bDuughfgwqIsV5rh8y+yyMVLUr+YR82i2/Vou28=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8LWnMcZRRwTcBuIXB188tQlZRd9y7K48DM2M0eXnio=
+			Mjs3jR9XxUhN3O0CwCS3odI/pT5JTRL1zqj3Jicgjec=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2XEKV+1+iYrAjEa2Mk0XS7rxG6Wzsu+X3JDelXjlV1I=
+			ZkK4bDuughfgwqIsV5rh8y+yyMVLUr+YR82i2/Vou28=
 			</data>
 		</dict>
 		<key>Modules/TestlioSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8LWnMcZRRwTcBuIXB188tQlZRd9y7K48DM2M0eXnio=
+			Mjs3jR9XxUhN3O0CwCS3odI/pT5JTRL1zqj3Jicgjec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

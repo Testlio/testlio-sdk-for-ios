@@ -13,6 +13,17 @@ import Swift
 import SystemConfiguration
 @_exported import TestlioSDK
 import UIKit
+extension UINavigationController {
+  @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+}
 extension UIDevice {
   public static let model: Swift.String
 }

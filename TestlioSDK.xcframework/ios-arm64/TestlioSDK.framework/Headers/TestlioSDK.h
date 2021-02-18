@@ -3,7 +3,7 @@
 //  TestlioSDK
 //
 //  Created by Michael Le on 01/07/2020.
-//  Copyright © 2020 Appy Coder Ltd. All rights reserved.
+//  Copyright © 2020 Testlio Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
